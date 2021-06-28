@@ -1,22 +1,13 @@
-# Machine Learning Homework - Exoplanet Exploration
+# Machine Learning - Exoplanet Exploration
 
-![exoplanets.jpg](Images/exoplanets.jpg)
 
 ### Before You Begin
 
-1. Create a new repository for this project called `machine-learning-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Give each model you choose their own Jupyter notebook, **do not use more than one model per notebook.**
 
 4. Save your best model to a file. This will be the model used to test your accuracy and used for grading.
 
 5. Commit your Jupyter notebooks and model file and push them to GitHub.
 
-## Note
-
-Keep in mind that this homework is optional! However, you will gain a much greater understanding of testing and tuning different Classification models if you do complete it.
 
 ## Background
 
@@ -37,18 +28,33 @@ In this homework assignment, you will need to:
 ### Preprocess the Data
 
 * Preprocess the dataset prior to fitting the model.
+    - unnecessary columns are removed
+    - all rows containing NaN are removed
+    - Data is correctly split into a training and test set
+    - Numerical data is scaled accordingly (MinMaxScaler)
 * Perform feature selection and remove unnecessary features.
+    - Unses some form of feature selection method to identify insignificant variables (feature_importance, RFE, backwards elemination, etc.)
+    - Remove insignificant variables and retrain models with the significant features
 * Use `MinMaxScaler` to scale the numerical data.
 * Separate the data into training and testing data.
 
 ### Tune Model Parameters
 
 * Use `GridSearch` to tune model parameters.
+    - Uses GridSearch or some hyperparameter tuning to find the best parameters for the model
+    - The tuned model is used to make the final exoplanet prediction
+    - Model scores greater than 85% accuracy on test data
 * Tune and compare at least two different classifiers.
+    - Creates, trains, and tests 3 different classification models
+    - Correctly sets x and y (koi_disposition) variables
+    -
 
 ### Reporting
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+    - README compares each of the models' performances and predictions
+    - README summarizes the findings and makes suumptions based on the data and their models.
+    - README descusses the predictions of the possible exoplanets with their models.
 
 - - -
 

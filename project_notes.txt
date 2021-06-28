@@ -1,0 +1,4 @@
+This is a machine learning project on exoplantes data.
+
+It falls into the   classification in the supervised leaning category; and demensionality reduction in the unsupervised leaning category.
+

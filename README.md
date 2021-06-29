@@ -12,8 +12,12 @@ This project is to study the NASA Kepler space telescope data based on a planet-
     - all rows containing NaN are removed
     - Data is 25/75 split into a training and test set
     - Numerical data is scaled accordingly (MinMaxScaler)
+    
 * Perform feature selection and remove unnecessary features.
+
     - Unses tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting.
+
+      ![RF_pie](image\RF_pie.png)
 
 ### Tune Model Parameters
 

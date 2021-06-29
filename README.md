@@ -18,8 +18,7 @@ This project is to study the NASA Kepler space telescope data based on a planet-
     ![rf_pie](image/RF_pie.png)
     ![tree_pie](image/tree_pie.png)
     - The SVM, Random Forest and Deep Learning models use tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting. It is better to overfit a model than under fit.
-    - The accuracy of the KNN model is below 0.85 when k=19, thus, a feature selection is applied before model fitting; the best score is then above 0.85
-    
+    - The accuracy of the KNN model is below 0.85 when k=19, thus, a feature selection is applied before model fitting; the best score is then above 0.85 with k=15 and weights = 'uniform'
 
 
 
@@ -35,7 +34,7 @@ This project is to study the NASA Kepler space telescope data based on a planet-
 
 * SVM model: Best Score = 0.8886 (Tuned)
 * Random Forest model: Best Score = 0.8940 (Tuned)
-* KNN model(k=19): Best Score = 0.8226 (with 40 features) | Best Score = 0.8644 (with 4 features)
+* KNN model(k=19): Best Score = 0.8226 (with 40 features) | (k=15) Best Score = 0.8602 (with 4 features)
 * Deep Learning model: Loss = 0.2539 / Accuracy = 0.8993
 
 

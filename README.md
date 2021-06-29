@@ -3,21 +3,25 @@
 
 ## Background
 
-This project is to study the NASA Kepler space telescope data based on a planet-hunting mission.I created several machine learning models that are capable of classifying candidate exoplanets from the raw dataset.
+This project is to study the NASA Kepler space telescope data based on a planet-hunting mission. I created several machine learning models that are capable of classifying candidate exoplanets from the raw dataset.
 
 ### Preprocess the Data
 
-* Preprocess the dataset prior to fitting the model.
-    - unnecessary columns are removed
+* Preprocess the dataset before fitting the model.
+    - unnecessary columns have removed
     - all rows containing NaN are removed
-    - Data is 25/75 split into a training and test set
+    - Data is 25/75 split into a training and test set.
     - Numerical data is scaled accordingly (MinMaxScaler)
     
 * Perform feature selection and remove unnecessary features.
+  <<<<<<< HEAD
 
     - Unses tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting.
+  =======
+    - Uses tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting.
+>>>>>>> 670d7330f7c9383648d34ed0569ae9d9c561bf3a
 
-      ![RF_pie](image\RF_pie.png)
+
 
 ### Tune Model Parameters
 

@@ -35,7 +35,7 @@ This project is to study the NASA Kepler space telescope data based on a planet-
 
 * SVM model: Best Score = 0.8886 (Tuned)
 * Random Forest model: Best Score = 0.8940 (Tuned)
-* KNN model(k=19): Best Score = 0.8226 (with 40 features) | Best Score =(with 4 features)
+* KNN model(k=19): Best Score = 0.8226 (with 40 features) | Best Score = 0.8644 (with 4 features)
 * Deep Learning model: Loss = 0.2539 / Accuracy = 0.8993
 
 

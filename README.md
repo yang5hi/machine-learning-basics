@@ -15,6 +15,7 @@ This project is to study the NASA Kepler space telescope data based on a planet-
     
 * Perform feature selection and remove unnecessary features.
     - Uses tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting.
+    
     ![rf_pie](image/RF_pie.png)
 
 

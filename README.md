@@ -28,14 +28,14 @@ This project is to study the NASA Kepler space telescope data based on a planet-
 * Use `GridSearch` to tune three classification model parameters.
     - Uses GridSearch to find the best parameters for all three models
     - The tuned model is used to make the final exoplanet prediction
-    - All models score greater than 85% accuracy on test data, except for KNN model
+    - All models score greater than 85% accuracy on test data.
 
 ### Results
 
-* SVM model: Best Score = 0.8886 (Tuned)
-* Random Forest model: Best Score = 0.8940 (Tuned)
-* KNN model(k=19): Best Score = 0.8226 (with 40 features) | (k=15) Best Score = 0.8602 (with 4 features)
-* Deep Learning model: Loss = 0.2539 / Accuracy = 0.8993
+* SVM model: Best Score = 0.8886 (C=1000, gamma=0.1 ,kernel=rbf )
+* Random Forest model: Best Score = 0.8930 (criterion=entropy, n_estimators=1000)
+* KNN model: Best Score = 0.8602 (with 4 features, k=15,  weights=uniform)
+* Deep Learning model: Loss = 0.2539 / Accuracy = 0.8993 |100 training epochs * 100 training epochs
 
 
 - - -

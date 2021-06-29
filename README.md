@@ -14,12 +14,8 @@ This project is to study the NASA Kepler space telescope data based on a planet-
     - Numerical data is scaled accordingly (MinMaxScaler)
     
 * Perform feature selection and remove unnecessary features.
-  <<<<<<< HEAD
-
-    - Unses tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting.
-  =======
     - Uses tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting.
->>>>>>> 670d7330f7c9383648d34ed0569ae9d9c561bf3a
+    ![rf_pie](image/RF_pie.png)
 
 
 

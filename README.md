@@ -14,7 +14,7 @@ This project is to study the NASA Kepler space telescope data based on a planet-
     - Numerical data is scaled accordingly (MinMaxScaler)
     
 * Perform feature selection and remove unnecessary features.
-    - The Randomforest model (first pie chart) shows no significant features, while decision tree (second pie chart) shows 4 outstanding features among the 40 features within the study.
+    - The Randomforest model (first pie chart) shows no significant features, while decision tree (second pie chart) shows 4 outstanding features among the 40 features within the study. <br>
     ![rf_pie](image/RF_pie.png)
     ![tree_pie](image/tree_pie.png)
     - The SVM, Random Forest and Deep Learning models use tree and randomforest to sort the features based on feature_importance, but none of the features were removed for model fitting. It is better to overfit a model than under fit.
